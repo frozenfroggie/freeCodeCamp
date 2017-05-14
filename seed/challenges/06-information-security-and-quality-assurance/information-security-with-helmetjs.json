@@ -332,7 +332,7 @@
       "challengeSeed": [],
       "tests": [
         {
-          "text": "BCyrpt is a dependency",
+          "text": "BCrypt is a dependency",
           "testString": "getUserInput => $.get(getUserInput('url')+ '/_api/package.json') .then(data => { var packJson = JSON.parse(data); assert.property(packJson.dependencies, 'bcrypt', 'Your project should list \"bcrypt\" as a dependency'); }, xhr => { throw new Error(xhr.statusText); })"
         },
         {
